@@ -1,0 +1,9 @@
+%6. Basic Plotting:
+
+%Generate data for a simple plot (e.g., a sine wave).
+x=0:360;
+t=0:360;
+sinewave=sind(x);
+plot(x,sinewave)
+xlabel('sinewave :degree')
+ylabel('t:value')
