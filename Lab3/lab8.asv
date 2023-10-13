@@ -1,0 +1,9 @@
+%%Create a script that calculates the factorial of a given number using a while loop. Prompt the user for input.
+
+number=input('enter the factorial number \n')
+fac=1
+while(number>=1)
+    
+   fac=fac*number
+   
+end

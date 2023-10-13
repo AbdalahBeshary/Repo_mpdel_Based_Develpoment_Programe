@@ -1,0 +1,30 @@
+%Create a script that translates a color code into its corresponding name using a switch statement. Prompt the user for input and handle at least five different color codes.
+
+struct.red=1234;
+struct.green=5678;
+struct.yellow=91011;
+struct.blue=121314;
+struct.violet=151617;
+
+color=input('user enter the code of color\n');
+
+switch(color)
+    case struct.red
+                fprintf('this is red color\n')
+    case struct.green
+                fprintf('this is green color\n')
+    case struct.yellow
+                fprintf('this is yellow color\n')
+     case struct.blue
+                fprintf('this is blue color\n')
+      case struct.violet
+                fprintf('this is violet color\n')        
+                
+    otherwise
+                        fprintf('this is unkwon color\n')        
+
+                
+end
+
+
+
