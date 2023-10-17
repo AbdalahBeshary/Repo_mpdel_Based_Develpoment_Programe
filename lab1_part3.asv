@@ -1,2 +1,0 @@
-originalMatrix =randi(2,2);
-repeatedMatrix=horzcat(originalMatrix,originalMatrix)
