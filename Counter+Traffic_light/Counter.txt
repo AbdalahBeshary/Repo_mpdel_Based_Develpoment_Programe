@@ -1,0 +1,31 @@
+											Counter+ Traffic Light
+
+
+Inputs :
+
+1-Start
+
+2-Step_Size
+
+3-Reset
+
+Ouput
+
+1-counter_out
+
+2-Green
+
+3-Yellow
+
+4- Red
+
+Operation
+
+ if Start =0 counter will be hold for present value and traffic will stop on it state. 
+
+ or start=1 start to count Up change from Red to Yellow after 8 second then from Yellow to Green after 5 second and Green same Red time. 
+ 
+ if Reset =1 system will return count from 0, and Red state will work (Red=0)
+
+
+Step_Size is talk about step of system.
