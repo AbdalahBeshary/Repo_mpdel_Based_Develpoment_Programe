@@ -1,0 +1,37 @@
+										SolarCell Tracking System
+
+
+
+System definition: Solarcell panel with 4 LDR sensors each one fix in each corner of panel and we use two servo motor one control direction of panel and other
+
+servo fix in column that carry all body.
+
+
+
+
+
+System Inputs:
+ 4 LDR sensor
+
+
+System Output
+
+ 2 Servo motors
+
+
+
+
+Alograthim : Simple alograthim and make for specific condtions  as we consdier the the sum of upper two sensors is larger or lower with lower two sensors
+
+ that make stepper of panel change direction by low PWM until become two of them equal and same time compare the right sensors with left LDR sensors
+ 
+and check the equal or not then action happen
+
+and we take in consideration 0.5v error is acccept in comparsion.
+
+
+Note
+
+we applyied concept of  code generation and make simulation in proteus.
+
+	
