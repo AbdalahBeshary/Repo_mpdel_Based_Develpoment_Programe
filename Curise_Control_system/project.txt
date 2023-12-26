@@ -1,0 +1,27 @@
+				    						 Simple Cruise Control System Modeling
+
+
+intial distance=10m
+
+Operation : 
+If distance > 15m, accelerate.
+
+
+If distance < 10m, decelerate. 
+
+
+If 5m < distance < 10m, do nothing. 
+
+
+If distance < 5m, brake.
+
+
+FaultTimer for 5second in Fault state then make system stop.
+
+
+When the start-stop feature is active, cruise control should not be active.
+
+
+If the user presses the off button for cruise control, it will deactivate.
+
+
